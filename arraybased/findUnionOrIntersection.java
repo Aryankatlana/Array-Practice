@@ -1,4 +1,4 @@
-public class findUnionOrIntersection {
+public class  findUnionOrIntersection {
     public static void UnionOrIntersection(int arr1[] , int arr2[])
     {
         int unionArr[] = new int[arr1.length];
