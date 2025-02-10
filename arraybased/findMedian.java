@@ -1,4 +1,3 @@
-import java.util.*;
 public class findMedian {
     public static void findMiddleELement(int arr1[] , int arr2[])
     {
