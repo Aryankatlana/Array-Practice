@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class CountFrequency {
     void ferquency(int arr[])
     {
-        for(int i = 0 ;i < arr.length ; i++)
+        for(int i = 0 ; i < arr.length ; i++)
         {
             int count = 0;
             for(int j = i ; j < arr.length ; j++)
@@ -25,7 +25,7 @@ public class CountFrequency {
                     count = 0;
                 }
             }
-            
+
         }
     }
     public static void main(String args[])
