@@ -18,7 +18,7 @@ public class findMajorityElement {
         }
         for(int n : map.keySet())
         {
-            if(map.get(n) == arr.length/2)
+            if(map.get(n) > arr.length/2)
             {
                 System.out.println("Majority element "+n);
                 ans++;
@@ -28,14 +28,10 @@ public class findMajorityElement {
         {
             System.out.println("In this array there is no majority element is present");
         }
-
-
-
-
     }
     public static void main(String args[])
     {
-        int arr[] = new int[]{1,1,2,1,3,5,3,1};
+        int arr[] = new int[]{3};
         find(arr);
     }
 }
