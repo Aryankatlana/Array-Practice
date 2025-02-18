@@ -19,7 +19,7 @@ public class factorial {
         int num = sc.nextInt();
 
         factorial ans = new factorial();
-       int fact =  ans.countFact(num);
-       System.out.println("Factorial is "+fact);
+        int fact =  ans.countFact(num);
+        System.out.println("Factorial is "+fact);
     }
 }
